@@ -1,3 +1,154 @@
-h1 {
-  color: red;
+body {
+	background-color:#ECECEC ; font-family: 'Mali'; 
+
+	}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4592AF;
 }
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 20px;
+  color: white;
+}
+
+.link:hover {
+  color: #458D2E;
+}
+
+.cadre{
+  color: #4592AF;
+  font-family: 'Mali'; 
+}
+
+
+.my-icon{
+	font-size: 40px
+	color: pink;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.logo {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+.btn-pink {
+  color : #4592AF;
+  padding: 650px 650px;
+}
+
+.mc-field-group {
+  color : #366ED8;
+  font-family: 'Mali';
+}
+
+.indicates-required {
+  color : #366ED8;
+}
+
+.validate {
+  color : #4592AF;
+}
+.texte1{
+  display: flex;
+  align-items: center;
+  border:30px solid #ECECEC;
+  color : #4592AF;
+  font-family: 'Mali';
+ 
+}
+
+.btn-info {
+ color : white;
+  padding: 5px 5px; 
+  display: flex;
+  justify-content: center;
+  
+}
+
+.col-sm  {
+      background: #DEDEDE ;
+  }
+
+  p, ul, ol {
+  font-size: 20px;
+}
+
+.photo1 {
+  padding-top: 20px;
+}
+
+.photo2 {
+  padding-top: 20px;
+}
+
+.photo3 {
+  padding-top: 20px;
+}
+
